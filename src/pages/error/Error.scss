@@ -1,0 +1,22 @@
+.error {
+  width: 100%;
+  display: flex;
+
+  .newContainer {
+    flex: 6;
+    position: relative;
+
+    .info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 50px;
+      font-weight: bold;
+
+      position: absolute;
+      top: 50px;
+      bottom: 0;
+      width: 100%;
+    }
+  }
+}
